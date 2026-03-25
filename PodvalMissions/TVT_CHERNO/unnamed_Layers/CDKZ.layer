@@ -1,0 +1,116 @@
+$grp SCR_AIGroup : "{68FC03D21BDA0859}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_RifleSquad.et" {
+ {
+  components {
+   PS_GroupCallsignAssigner "{68A3601C92B4A58B}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 9452.04 292.531 8790.062
+  angles 0 -93.685 0
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{68A3601C92B4A58B}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 9454.258 292.531 8790.205
+  angles 0 -93.685 0
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{68A3601C92B4A58B}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 9441.561 293.222 8824.118
+  angles 0.274 -176.493 -4.459
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{68A3601C92B4A58B}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 9469.416 292.635 8824.58
+  angles 0 174.667 0
+ }
+ Crew2 {
+  components {
+   PS_GroupCallsignAssigner "{68A3601C92B4A58B}" {
+    m_iCompanyCallsign 2
+   }
+  }
+  coords 9539.924 292.151 8823.759
+  angles -1.456 -170.1 -2.07
+  m_aUnitPrefabSlots {
+   "{3C47CA358FD12559}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SL_3.et"
+   "{3F440215B3CA60BB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD_2.et"
+   "{0D463304DD79D50A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_LAT_SD_3.et"
+   "{3F440215B3CA60BB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD_2.et"
+   "{94FB86B2EE84EBFB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD.et"
+   "{DAD84EECBF2FF7D0}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD_3.et"
+  }
+  m_sCustomNameSet "Группа Разведки"
+ }
+ Crew1 {
+  components {
+   PS_GroupCallsignAssigner "{68A3601C92B4A58B}" {
+    m_iCompanyCallsign 2
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 9517.159 292.534 8826.305
+  angles 4.662 -172.466 -1.184
+  m_aUnitPrefabSlots {
+   "{3C47CA358FD12559}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_SL_3.et"
+   "{3F440215B3CA60BB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD_2.et"
+   "{0D463304DD79D50A}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_LAT_SD_3.et"
+   "{3F440215B3CA60BB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD_2.et"
+   "{94FB86B2EE84EBFB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD.et"
+   "{94FB86B2EE84EBFB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD.et"
+  }
+  m_sCustomNameSet "Группа Разведки"
+ }
+}
+$grp Vehicle : "{935188308D14805E}Prefabs/Vehicles/Wheeled/UAZ452/UAZ452_transport_ChDKZ.et" {
+ UAZ452_transport_ChDKZ1 {
+  coords 9535.949 291.49 8818.517
+  angles -5.559 98.489 0.973
+  m_sAttachmentGroupName "Crew2"
+ }
+ UAZ452_transport_ChDKZ2 {
+  coords 9518.626 292.512 8821.492
+  angles -1.774 97.608 -0.237
+  m_sAttachmentGroupName "Crew1"
+ }
+}
+$grp SCR_AIGroup : "{BF97ECB4D954314C}Prefabs/Groups/OPFOR/Ses_ChDKZ/Group_ChDKZ_HQ_PL.et" {
+ {
+  components {
+   BritishForces_LightManagerComponent "{68EA64F041C30C45}" {
+   }
+  }
+  coords 9448.124 292.668 8794.735
+  angles 0 90.54 0
+  m_aUnitPrefabSlots {
+   "{5813C3FEA418100E}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_PL_Random.et"
+  }
+  m_sCustomNameSet "   Коммандир «Гранит»"
+ }
+ {
+  components {
+   BritishForces_LightManagerComponent "{68EA64F041C30C45}" {
+   }
+  }
+  coords 9448.124 292.668 8792.704
+  angles 0 90.54 0
+  m_aUnitPrefabSlots {
+   "{432739FBF5773868}Prefabs/Characters/Factions/OPFOR/ChDKZ/Random/Char_ChDKZ_Rifleman_SD_Random.et"
+   "{94FB86B2EE84EBFB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD.et"
+   "{3F440215B3CA60BB}Prefabs/Characters/Factions/OPFOR/ChDKZ/Char_ChDKZ_Rifleman_SD_2.et"
+  }
+  m_sCustomNameSet "Личная охранна «Гранита»"
+ }
+}

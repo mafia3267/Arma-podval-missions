@@ -1,0 +1,214 @@
+$grp SCR_AIGroup : "{3F29EA2D79388D65}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Motorized.et" {
+ crew3 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iSquadCallsign 1
+   }
+  }
+  coords 12746.917 5.749 9842.454
+  angles 0 141.569 0
+ }
+ crew8 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5907.411 298.592 8041.29
+  angles 0.299 -121.337 -1.23
+ }
+}
+Vehicle BTR70_Ses_CDF1 : "{3F3F663ED52E08B5}Prefabs/Vehicles/Wheeled/BTR70/BTR70_Ses_CDF.et" {
+ coords 12746.9 5.723 9838.367
+ angles 0 -128.459 0
+ m_sAttachmentGroupName "crew3"
+}
+$grp SCR_AIGroup : "{6449AAD99869C0D5}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_Squad.et" {
+ crew5 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 12759.28 5.75 9838.921
+  angles 0 -42.632 0
+ }
+ crew6 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 12778.576 5.75 9855.549
+  angles 0 -43.578 0
+ }
+ crew9 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 5873.921 299.25 8079.082
+  angles 0 60.357 0
+ }
+ crew10 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 1
+    m_iSquadCallsign 1
+   }
+  }
+  coords 5867.195 299.206 8101.996
+  angles 0 -116.489 0
+ }
+ crew15 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 12789.352 5.749 9868.265
+  angles 0 -54.897 0
+  m_aUnitPrefabSlots {
+   "{98918C4F8902542E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_SL_Random.et"
+   "{DF081FFC7A479F9B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_SR_Random.et"
+   "{0C6A72D37683F186}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_2.et"
+   "{288DECDA7343ED90}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_MG_3.et"
+   "{0C6A72D37683F186}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_2.et"
+  }
+ }
+ crew16 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+   }
+  }
+  coords 5856.789 299.219 8116.525
+  angles 0 54.351 0
+  m_aUnitPrefabSlots {
+   "{98918C4F8902542E}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_SL_Random.et"
+   "{DF081FFC7A479F9B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Random/Char_A2F_CDF_SR_Random.et"
+   "{0C6A72D37683F186}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_2.et"
+   "{288DECDA7343ED90}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_MG_3.et"
+   "{0C6A72D37683F186}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_LAT_2.et"
+  }
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iPlatoonCallsign 3
+   }
+  }
+  coords 9788.121 209.84 9760.637
+  m_aUnitPrefabSlots {
+   "{551ECBE2D7A071B1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SL_Opt_3.et"
+   "{0D75B106A99B2CD7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Rifle_SD_4.et"
+   "{0D75B106A99B2CD7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Rifle_SD_4.et"
+  }
+  m_sCustomNameSet "Группа Разведки"
+ }
+ {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 1
+    m_iPlatoonCallsign 2
+    m_iSquadCallsign 1
+   }
+  }
+  coords 9033.473 266.884 7864.148
+  m_aUnitPrefabSlots {
+   "{551ECBE2D7A071B1}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_SL_Opt_3.et"
+   "{0D75B106A99B2CD7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Rifle_SD_4.et"
+   "{0D75B106A99B2CD7}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Rifle_SD_4.et"
+  }
+  m_sCustomNameSet "Группа Разведки"
+ }
+}
+Vehicle UAZ469_uncovered_Turret_Ses_CDF_KORD1 : "{97C9C929746F6081}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Turret_Ses_CDF_KORD.et" {
+ coords 12742.768 5.719 9828.068
+ angles 0 -128.29 0
+ m_sAttachmentGroupName "crew4"
+}
+Vehicle UAZ469_uncovered_Turret_Ses_CDF_AGS1 : "{9B4F4245F8F62C70}Prefabs/Vehicles/Wheeled/UAZ469/UAZ469_uncovered_Turret_Ses_CDF_AGS.et" {
+ coords 5915.135 298.356 8013.512
+ angles 0 149.628 0
+ m_sAttachmentGroupName "crew7"
+}
+$grp Vehicle : "{B3BE9258C89E8491}Prefabs/Vehicles/Wheeled/Ural4320/Ses_CDF/Ural4320_Ses_CDF_transport_covered.et" {
+ Ural4320_Ses_CDF_transport_covered1 {
+  coords 12759.15 5.75 9843.045
+  angles 0 -130.468 0
+  m_sAttachmentGroupName "crew5"
+ }
+ Ural4320_Ses_CDF_transport_covered2 {
+  coords 12776.729 5.75 9858.226
+  angles 0 -132.745 0
+  m_sAttachmentGroupName "crew6"
+ }
+ Ural4320_Ses_CDF_transport_covered3 {
+  coords 5879.43 299.243 8080.929
+  angles 0 153.323 0
+  m_sAttachmentGroupName "crew9"
+ }
+ Ural4320_Ses_CDF_transport_covered4 {
+  coords 5861.614 299.25 8101.315
+  angles 0 151.587 0
+  m_sAttachmentGroupName "crew10"
+ }
+}
+Vehicle LAV25_CDF1 : "{C9CDC54E051CF8DB}Prefabs/Vehicles/Wheeled/LAV25/LAV25_CDF.et" {
+ coords 5903.832 298.597 8040.081
+ angles -1.225 149.658 -0.32
+ m_sAttachmentGroupName "crew8"
+}
+$grp Vehicle : "{D574C943C9F8C9DF}Prefabs/Vehicles/Wheeled/M998/M1151_armed_M2HB_AP.et" {
+ M1151_armed_M2HB_AP1 {
+  coords 5859.38 299.228 8117.768
+  angles -0.495 146.406 -0.746
+  m_sAttachmentGroupName "crew16"
+ }
+ M1151_armed_M2HB_AP2 {
+  coords 12785.65 5.75 9869.035
+  angles 0 -146.219 0
+  m_sAttachmentGroupName "crew15"
+ }
+}
+$grp SCR_AIGroup : "{F2ABAC37E4537895}Prefabs/Groups/BLUFOR/Ses_CDF/Group_A2F_CDF_PL.et" {
+ crew4 {
+  components {
+   PS_GroupAttachmentComponent "{68EA64F850E80191}" {
+   }
+   PS_GroupAttachmentComponent "{68EA64F8B6AE25D2}" {
+   }
+   PS_GroupCallsignAssigner "{68EA64F88ABAC81B}" {
+    m_iPlatoonCallsign 1
+   }
+  }
+  coords 12743.635 5.719 9825.045
+  angles 0 -40.783 0
+  m_aUnitPrefabSlots +{
+   "{024CD8FA035D164B}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Medic_1.et"
+   "{F08FADA471F1C7BA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sniper_1.et"
+  }
+  m_sCustomNameSet "Командир серевной группы"
+ }
+ crew7 {
+  components {
+   PS_GroupCallsignAssigner "{68A30C9A9E8D83F4}" {
+    m_iCompanyCallsign 1
+   }
+  }
+  coords 5912.451 298.107 8011.151
+  angles 0 57.018 0
+  m_aUnitPrefabSlots +{
+   "{6E18EC1ABF999965}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Medic_2.et"
+   "{F08FADA471F1C7BA}Prefabs/Characters/Factions/BLUFOR/CDF_Army/Char_A2F_CDF_Sniper_1.et"
+  }
+  m_sCustomNameSet "Командир южной группы"
+ }
+}
